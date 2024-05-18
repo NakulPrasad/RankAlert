@@ -1,10 +1,14 @@
 {
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
   },
-  "name": "RankAlert",
+  "name": "rankalert",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+    "devbackend": "nodemon app.js"
+  },
+  "main": "app.js",
   "repository": "https://github.com/NakulPrasad/RankAlert.git",
   "author": "Nakul Prasad <nakulprasad10@outlook.com>",
   "license": "MIT"
