@@ -49,6 +49,6 @@ h1{
 .send-btn:hover{
     background:#007bb5;
 }
-input[type="file"]{
+/* input[type="file"]{
     display: none;
-}
+} */
